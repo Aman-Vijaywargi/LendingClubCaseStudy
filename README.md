@@ -17,7 +17,8 @@
     1. Fully paid: Applicant has fully paid the loan (the principal and the interest rate)
     2. Current: Applicant is in the process of paying the instalments, i.e. the tenure of the loan is not yet completed. These candidates are not labelled as 'defaulted'.
     3. Charged-off: Applicant has not paid the instalments in due time for a long period of time, i.e. he/she has defaulted on the loan 
- * Loan rejected: The company had rejected the loan (because the candidate does not meet their requirements etc.).
+  * Loan rejected: The company had rejected the loan (because the candidate does not meet their requirements etc.).
+
   Since the loan was rejected, there is no transactional history of those applicants with the company and so this data is not available with the company (and thus in this dataset)
 - The dataset is used from the time period of 2007 to 2011
 
@@ -37,7 +38,8 @@
 - Python - version 3.9
 - Numpy - version 1.22
 - Pandas - version 1.4.3
-- 
+- Seaborn - version 0.11.2
+- Matplotlib - 3.5.0
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
